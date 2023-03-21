@@ -24,6 +24,11 @@ os arquivos estão sendo servidos pelo servidor (Back-end) utulizando NodeJS</p>
 <p>para rodar o projeto em localhost</p>
 <hr>
 
+<h3> Aviso </h3>
+<strong><p> as mensagens são salvas de acordo com seu usuário, pois não foi possivel salvar o id do usuario, então mensagens com usuarios diferentes ficam como se fossem de outro usuario. Portanto deixei o Padrão do Design Principal</p></strong>
+
+
+
 <h3> Finalizando </h3>
 
 Feito com muito ❤️ e JavaScript
