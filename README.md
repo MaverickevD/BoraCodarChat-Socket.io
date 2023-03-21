@@ -3,7 +3,7 @@
 <p> Estava a quase um mês sem praticar HTML e CSS. Apenas estudando back-end. Então ao ver essa hashtag resolvir unir o utíl ao agrádavel.</p>
 
 <h3> Descrição do Projeto</h3>
-<p> Basicamente é um app de mensagens em tempo real utilizando a interface do desafio desponibilizado no canal da RocketSeat, o Front-end foi feito em HTML, CSS e JavaScript. Com integração com o Socket.io 
+<p> Basicamente é um app de mensagens em tempo real utilizando a interface do desafio desponibilizado no canal da RocketSeat, o Front-end foi feito em HTML, CSS e JavaScript. Com integração com o Socket.io  e Express
 os arquivos estão sendo servidos pelo servidor (Back-end) utulizando NodeJS</p>
 
 
