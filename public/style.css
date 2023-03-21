@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & family= Montserrat & family= Pacifico & family= Roboto & display=swap');
+
+
+*{
+  font-family: 'Roboto',sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+img{
+  user-select: none;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1924;
+}
+
+header{
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  color: #fff;
+}
+
+.containerProfile{
+  position: relative;
+  align-items: center;
+  float: left;
+  display: flex;
+}
+
+.contact_Avatar img{
+  height: 48;
+  width: 48;
+}
+
+.contact_Profile {
+  width: 120px;
+  margin-top: 4px;
+  margin-left: 16px;
+  margin-bottom: 4px;
+}
+
+.close_Chat{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  
+  float: right;
+  margin-left: 8em;
+}
+.close_Chat button{
+  background-color: transparent;
+  border: none;
+}
+
+#btnCloseChat img{
+  height: 24px;
+  width: 24px;
+}
+#Status{
+  color: #00B37E;
+}
+
+header span{
+  text-align: center;
+ 
+}
+
+
+footer{
+
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+
+.sla{
+  margin-bottom: 32px;
+  width: 90%;
+  height: 52px;
+  background-color: #282843;
+  top: 75%;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 999px;
+}
+
+
+
+#InputTextMessage{
+  font-size: 16px;
+  margin-left: 24px;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#InputTextMessage::placeholder{
+  color: #636363;
+}
+#labelTextMessage{
+  width: 80%;
+}
+
+main{
+  overflow-y: scroll;
+  margin: auto;
+  margin-top: 40px;
+  width: 70%;
+  height: 70%;
+}
+
+main::-webkit-scrollbar {
+  width: 5px;    
+  height: 20px;   
+  color: transparent;
+  background-color: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(255, 255, 255, 0.2);  /* creates padding around scroll thumb */
+}
+
+main div {
+  display: flex;
+  color: hsl(240, 9%, 89%);
+  width: 100%;
+  
+}
+
+main #divConvidado span{
+  font-size: 16px;
+  min-width: 60px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #07847E;
+  border-radius: 10px;
+}
+
+main #divConvidado{
+  text-align: right;
+}
+
+footer div button  {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  
+}
+
+
+#divUsuario{
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#divUsuario span{
+  min-width: 60px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #07847E;
+  border-radius: 10px;
+}
